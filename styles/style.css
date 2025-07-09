@@ -110,8 +110,41 @@ main{
 
 }
 
+/*resume*/
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+.resume-column-title{
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+.experience-title{
+    font-size: 25px;
+    margin-bottom: 0;
+    
+}
+.experience-sub-title{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.experience-description,.experience-sub-title{
+  color: rgba(117, 117, 117, 1);
+}
+.resume hr{
+    margin: 30px 5px;
+}
+.resume-download-btn{
+    margin-top: 50px;
+}
 
 /*Shared style*/
+.text-center{
+    text-align: center;
+}
 .secondary-bg{
     background-color: rgba(255, 248, 243, 1);
 }
@@ -119,8 +152,9 @@ main{
     color: rgba(253, 110, 10, 1);
 }
 
-.dark-2{
+.dark-2, .experience-title, .resume-column-title{
     color: rgba(71, 71, 71, 1);
+    
 }
 
 .btn-primary{
@@ -143,7 +177,5 @@ main{
     font-size: 18px;
     color: rgba(117, 117, 117, 1);
     text-align: center;
-   
-   
     
 }
