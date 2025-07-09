@@ -37,6 +37,42 @@ nav li a{
     color: black;
     font-size: 20px;
 }
+/*Header*/
+.header{
+    background-image: url('../images/developer.png'), url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left,bottom right;
+}
+
+/*banner style*/
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 30px 0 200px;
+   
+}
+.banner-content{
+    max-width: 585px;
+    max-height: 356px;
+}
+.banner-grettings{
+    font-size: 45px;
+    font-weight: 600;
+
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: bold;
+
+}
+.banner-description{
+    font-size: 18px;
+    color: rgba(117, 117, 117, 1);
+}.banner-dp{
+    width: 584px;
+    height: 678px;
+}
+
 /*Shared style*/
 .text-primary{
     color: rgba(253, 110, 10, 1);
