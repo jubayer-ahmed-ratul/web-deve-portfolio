@@ -141,6 +141,34 @@ main{
     margin-top: 50px;
 }
 
+/*footer*/
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+.footer-column{
+    width: 50%;
+
+}
+footer [type="text"], footer input[type="email"], footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+    font-size: 16px;
+
+}
+footer textarea{
+    height: 200px;
+}
+
+
+
+
 /*Shared style*/
 .text-center{
     text-align: center;
