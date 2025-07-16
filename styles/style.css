@@ -207,3 +207,46 @@ footer textarea{
     text-align: center;
     
 }
+
+
+
+/*RESPONSIVE */
+
+
+
+@media screen  and (max-width:576px) {
+    .technologies, .resume-container, footer, .about-items,nav, .banner{
+        flex-direction: column;
+        
+    }
+    .technology, .resume{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .header{
+        background-image: none;
+    }
+    .banner{
+        margin: 0;  
+        
+    }
+    .banner-dp{
+        width: 100%;
+        margin-top: 350px;
+    }
+    footer, .about{
+        padding: 0px;
+
+    }
+    .footer-column{
+        width: 100% ;
+    }
+    footer [type="text"], footer input[type="email"], footer textarea{
+        width: calc(100% - 40px);
+    }
+
+
+    
+}
